@@ -1,0 +1,48 @@
+.logo{
+   
+}
+
+
+.box{   
+}
+.topnav {
+    overflow: hidden;
+  
+    padding-left: 650px;
+}
+ 
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+ 
+.topnav a:hover {
+    background-color: whitesmoke;
+    
+    color: black;
+}
+ 
+
+.container{
+    background-image: url(../Website/image/music-792-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 230%;
+    height: 490px;
+}
+
+.footer{
+    background-image: url(../Website/image/music-792-tablet.jpg);
+   margin-top: 15px;
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
