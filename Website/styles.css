@@ -1,23 +1,40 @@
-.logo{
-   
-}
+.topnav > img{
+   float: right;
 
+}
+.head{
+  
+    height: 70px;
+    margin-bottom:5px;
+    flex: auto;
+}
+.logo > img{
+    float: left;    
+   height: 70px;
+   width: 150px;
+}
 
 .box{   
+    
 }
 .topnav {
-    overflow: hidden;
-  
-    padding-left: 650px;
+   
+  display: block;
+   float: right;
+   margin-top: 10px;
+   border: 2px solid #16df20;
 }
  
 .topnav a {
+    overflow: hidden;
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    margin-right: 10px;
+  
 }
  
 .topnav a:hover {
@@ -30,19 +47,160 @@
 .container{
     background-image: url(../Website/image/music-792-tablet.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 230%;
-    height: 490px;
+    background-size: 100% 120%;
+    border: 2px solid #ff0000;
+   height: 500px;
 }
 
+form{
+    float: right;
+    background: #f8f8f8;
+    border: 2px solid white;
+    height: 250px;
+    width: 350px;
+    margin: 100px 40px 0px 0px;
+}
+.select{
+   
+    
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border-bottom: 2px solid #ff0000;
+}
 .footer{
     background-image: url(../Website/image/music-792-tablet.jpg);
-   margin-top: 15px;
+    background-repeat: no-repeat;
+    background-size: 80% 120%;
+    height: 480px;
+    border: 2px solid yellow;
+   
+    /* background-size: 100% 100%; */
+ /* float: left;
     width: 900px;
     height: 500px;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 120%;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 }
+
+
+.box{
+    
+    float: left;
+   
+   
+}
+ .container-1{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  }
+  .container-1 input#search{
+      margin: 10px 0px 0px 10px;
+    width: 500px;
+    height: 50px;
+    background: #f8f8f8;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 35px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+  }
+  .container-1 .icon{
+    
+       padding: 25px 0px 0px 20px;
+      font-size: 20px; 
+    position: absolute;
+    float: left;
+   padding-left: -300px;
+    z-index: 1;
+    color: black;
+  }
+  /* .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+    outline:none;
+    background: #ffffff;
+  } */
+  .clear{
+      clear: both;
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: #C30;
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+.fas{
+    font-size: 20px;
+    margin: 180px 0px 0px 220px;
+    background: yellow;
+    width: 15px;
+    height: 15px;
+    background: #C30;
+    text-align: center;
+    padding:15px;
+    color: #fff;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+   float: right;
+    background: #f8f8f8;
+    border: 2px solid black;
+   
+    margin: -250px 40px 0px 0px;
+  }
+
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+   height: 100px;
+    font-size: 15px;
+  }
+  .chu{
+      font-size: 30px;
+      color: #f1f1f1;
+      border: 2px solid #6b0ce7;
+      width: 500px;
+      margin: 70px 0px 0px 100px;
+  }
+
+ 
+.container2 {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .item {
+    font-size: 2rem;
+    line-height: 1;
+    text-align: center;
+    padding: 3rem;
+    background: mistyrose;
+    border: 3px solid tomato;
+    color: tomato;
+    margin: 15px;
+    width: 160px;
+    height: 200px;
+  }

@@ -1,0 +1,90 @@
+ .img{
+height: 200px;
+}
+.footer{
+    background-image: url(../Website/image/music-792-tablet.jpg);
+  
+}
+
+.flex-container {
+    display: flex;
+    border: 2px solid #16df20;
+    flex-wrap: wrap;
+    position: fixed;
+  }
+  
+  .flex-container > div {
+    
+    padding: 10px;
+    font-size: 30px;
+  }
+ .item2{
+     width:400px;
+     margin-left: 10px;
+ }
+ .item3{
+     width: 470px;
+ }
+ .item1{
+    width: 120px;
+ }
+ .logo > img{
+    float: left;    
+   height: 70px;
+   width: 150px;
+}
+.topnav {
+   
+    display: block;
+     float: right;
+     margin-top: 10px;
+     border: 2px solid #16df20;
+  }
+   
+  .topnav a {
+      overflow: hidden;
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      margin-right: 10px;
+    
+  }
+   
+  .topnav a:hover {
+      background-color: whitesmoke;
+      
+      color: black;
+  }
+
+.container-1{
+    width: 100px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+   
+  }
+  .container-1 input#search{
+      margin: 10px 0px 0px 10px;
+    width: 480px;
+    height: 50px;
+    background: #f8f8f8;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 35px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+  }
+  .container-1 .icon{
+    
+       padding: 25px 0px 0px 20px;
+      font-size: 20px; 
+    position: absolute;
+    color: black;
+  }
