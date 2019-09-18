@@ -1,7 +1,4 @@
-.topnav > img{
-   float: right;
 
-}
 .head{
   
     height: 70px;
@@ -33,7 +30,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    margin-right: 10px;
+    margin-right: 
   
 }
  
@@ -45,7 +42,7 @@
  
 
 .container{
-    background-image: url(../Website/image/music-792-tablet.jpg);
+    background-image: url(../image/music-792-tablet.jpg);
     background-repeat: no-repeat;
     background-size: 100% 120%;
     border: 2px solid #ff0000;
@@ -69,7 +66,7 @@ form{
     border-bottom: 2px solid #ff0000;
 }
 .footer{
-    background-image: url(../Website/image/music-792-tablet.jpg);
+    background-image: url(../image/music-792-tablet.jpg);
     background-repeat: no-repeat;
     background-size: 80% 120%;
     height: 480px;
