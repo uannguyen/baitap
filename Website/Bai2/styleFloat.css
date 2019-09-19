@@ -1,0 +1,221 @@
+.header{
+    margin-top: 5px;
+   
+    height:80px;
+    position: absolute;
+    width: 100%;
+    clear: both;
+}
+.header .logo{
+    float: left;   
+    width: 15%;
+    font-family:Georgia, 'Times New Roman', Times, serif,impact;
+    color: aliceblue;
+    font-size: 13px;
+    text-align:center;
+
+}
+.header .search{
+    float: left;
+    
+    width: 40%;
+   height: 80px; 
+    white-space: nowrap;
+  
+  }
+  .header .search input#search{
+    margin: 5px 10px;
+    width: 400px;
+    height: 50px;
+    background: #f8f8f8;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: black;
+    padding-left: 35px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: absolute;
+
+  }
+  .header .search .icon{
+       padding: 20px;
+      font-size: 20px; 
+    float: left;
+   padding-left: -300px;
+    z-index: 1;
+    color: black;
+    position: absolute;
+  }
+.header .nav{
+    float: left;
+    width: 40%;
+   
+    text-align: center; 
+   
+    padding: 25px 15px; 
+}
+    .nav >a{
+        font-size: 20px;
+        color: aliceblue;
+        text-align: center;
+        margin: 10px 5px;
+        padding: 10px 12px;
+       text-decoration: none;
+        
+    }
+    .nav >a:hover{
+        background-color:antiquewhite;
+    }
+.b{
+
+position:absolute;
+height: 100%;
+width: 100%;
+background-image: url(../image/music-792-tablet.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+}
+.c{
+
+    background-image: url(../image/music-792-tablet.jpg);
+    
+    background-repeat: no-repeat;
+    width: 80%;
+    position: absolute;
+    margin-top: 70px;
+    height: 100%;
+    background-size: 100%;
+}
+.c >p{
+    text-align: left;
+    
+    font-size: 50px;
+    color: #f8f8f8;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.8;
+    margin-top: 150px;
+    margin-left: 150px;
+    
+ 
+}
+.form{
+    position: absolute;
+    width: 30%;
+    height: 250px;
+    border:3px solid red;
+    margin-top: 140px;
+    margin-left: 500px;
+}
+
+.content{
+   position: absolute;
+    background-color: blue;
+
+    
+}
+.clear{
+    clear: both;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 3px solid red;
+    margin: 25px;
+}
+article{
+    border-radius: 5px;
+  margin: 10px;
+    background:white;
+    flex: 300px;
+    height: 350px;
+    width: 100%%;
+   
+}
+    article:hover{
+        background-color:white;
+     transition: 0.3s;
+        padding: 0.5px;
+        
+        
+    }
+.container{
+    height: 700px;
+}
+
+.image{
+    border-radius: 5px;
+    background-repeat: no-repeat;  
+    background-size: contain;
+    float: left;
+    width: 100%;
+    height: 50%;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    background-image: url(../image/https___cdn.evbuc.com_images_72569059_97655118995_1_original.jpg);
+}
+    .image > a >img{
+        width: 100%;
+      
+    }
+    
+   
+    .image > h4{
+        
+        width: 60px;
+        background-color: white;
+        margin-left: 250px;
+        padding: 0px 10px;
+        padding: 10px;
+        color: black;
+        text-align: center;
+       
+        display: inline-block;
+        border-radius: 3px;
+    }
+.noidung{
+    float: left;
+    width: 100%;
+    height: 50%;
+   
+}
+.left{
+    float: left;
+    width:20%;
+}
+    .left > p{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+    }
+.right{
+    float: left;
+    width: 80%;
+    
+}
+    .right a{
+        text-decoration: none;
+        color: black;
+       
+    }
+
+    /* Chỉnh Css cho icon */
+        .icon .fas{
+            font-size: 30px;
+           border: 2px solid rgb(250, 245, 245);
+           float: right;
+           margin-right: 20px;
+          margin-top: 60px;
+           color: rgb(75, 68, 68);   
+           background-color: #f8f8f8;  
+           border-radius: 25px;
+           -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    --border-radius: 25px; 
+        }
+        .icon .fas:hover{
+            background-color:white;
+            transition: 0.3s;
+               padding: 0.5px;
+        }
