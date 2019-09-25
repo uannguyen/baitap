@@ -1,0 +1,267 @@
+*{
+    margin: 0 auto;
+}
+.header{
+    position: absolute;
+    width: 90%;
+    height: 59px;
+}
+.header .logo{
+   
+    float: left;   
+    
+}
+.header .logo>a >img{
+    width: 137px;
+   height: 90%;
+    margin-left: 5px;
+    margin-top: -8px; 
+}
+.header .search{
+    float: left;
+    
+    width: 40%;
+   height: 80px; 
+    white-space: nowrap;
+  
+  }
+  .header .search input#search{
+    margin: 5px 10px;
+    width: 400px;
+    height: 50px;
+    background:white;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: black;
+    padding-left: 35px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: absolute;
+    
+
+  }
+  .header .search .icon{
+       padding: 20px;
+      font-size: 20px; 
+    float: left;
+   padding-left: -300px;
+    z-index: 1;
+    color: black;
+    position: absolute;
+  }
+.header .nava{ 
+    text-align: center;   
+    margin-right: -500px;
+}
+
+    .nava > a{
+        line-height: 20px;
+        font-size: 14px;
+        color: rgb(66, 61, 61);
+        text-align: center;
+       
+        padding: 0px 12px;
+       text-decoration: none;   
+       font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .dropdown > p{
+        font-size: 14px;
+        color: rgb(66, 61, 61);
+        text-align: center;
+        margin: 10px 5px;
+        padding: 10px 12px;
+       text-decoration: none;
+       font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      
+    }
+   
+    .title:hover{
+        background-color:rgb(199, 184, 184);
+    }
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+   .dropdown a{
+       display: none;
+   }
+   .drop-content{
+    margin-top: -20px;
+    margin-left: -100px;
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 250px;
+    z-index: 1;
+   }
+   .drop-content >a{
+       
+    color: rgb(66, 61, 61);
+    padding: 12px 0px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+   }
+   .drop-content > a:hover{
+       background-color: bisque;
+   }
+   .dropdown:hover .drop-content{
+       display: block;
+   }
+/* .b{
+
+position:absolute;
+height: 100%;
+width: 100%;
+background-image: url(../image/music-792-tablet.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+} */
+ .slideshow-container{
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 60px;
+    background-size: 100%;
+   
+} 
+.mySlides > img{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* .form{
+    position: absolute;
+    width: 30%;
+    height: 250px;
+    border:3px solid red;
+    margin-top: 140px;
+    margin-left: 500px;
+} */
+
+.content{
+   position: absolute;
+    background-color: blue;   
+}
+.clear{
+    clear: both;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 3px solid red;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+article{
+    border-radius: 5px;
+    margin: 10px;
+    background-color:white;
+    flex: 250px;
+    height: 350px;
+}
+    article:hover{
+        background-color:white;
+     transition: 0.3s;
+        padding: 0.5px;   
+    }
+.container{
+    height: 600px; 
+}
+ .image{
+     background-color: rgb(187, 236, 9);
+    border-radius: 5px;
+    background-repeat: no-repeat;  
+    background-size: contain;
+    float: left;
+    width: 100%;
+    height: 50%;
+    background-size: 100% 180px;
+    background-image: url(../image/https___cdn.evbuc.com_images_72569059_97655118995_1_original.jpg);
+} 
+.image2{
+    background-color: rgb(187, 236, 9);
+   border-radius: 5px;
+   background-repeat: no-repeat;  
+   background-size: contain;
+   float: left;
+   width: 100%;
+   height: 50%;
+   background-size: 100% 180px;
+   background-image: url(../image/https___cdn.evbuc.com_images_64571031_70946556681_1_original.jpg);
+} 
+
+    .text{
+    position: absolute;
+    background-color: white;
+    margin-top: 10px;
+    left: 300px;
+    padding: 8px 17px;
+    border-radius: 5px;
+    }
+   
+.noidung{
+    float: left;
+    width: 100%;
+    height: 50%;
+}
+.left{
+    float: left;
+    width:20%;
+}
+    .left > p{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+    }
+.right{
+    float: left;
+    width: 80%;
+    
+}
+    .right a{
+        text-decoration: none;
+        color: black;
+       
+    }
+
+    /* Chỉnh Css cho icon */
+   
+        .icon .fas{
+            
+            font-size: 25px;
+           border: 2px solid rgb(250, 245, 245);
+           float: right;
+            margin-right: 12px;
+            margin-top: 150px;
+           color:rgb(49, 47, 47); 
+           background-color:white;  
+            border-radius: 25px;
+            padding: 8px;
+       
+        }
+       .learnmore{
+           float: left;
+           width: 100%;
+           height: 200px;
+           background-color: rgb(29, 29, 201);
+          
+       }
+       .learnmore > p {
+       font-family: myFont;
+           background-color: black;
+        padding-left: 200px;
+        font-size: 50px;
+        color: white;
+       
+       }
+   @font-face{
+    font-family: myFont;
+    src: url(../font/download.woff) format(woff);
+       
+   }
