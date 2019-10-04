@@ -1,14 +1,30 @@
 
 <html>
         <head>
-        <!-- <link rel='stylesheet' type="text/css" href='../public/css/style.css'/> -->
-            <title>Web Express</title>
+       
+            <title>Web Expresssss</title>
             <link rel='stylesheet' href='../css/styles.css'/>
+         
             <base href="/">
         </head>
         <body>
-            <h1>Hello uan <%-name%> </h1>
-            <a href="/sanpham">Users</a>
+              
+            <h3 class="h3">Show sản phẩm</h3>
+            <a href="">
+            <div class="noidung">
+                
+                <% sanpham.forEach(function(users){ %>
+                      <div class="content"><img src=" <%=users.image %>">
+                        <p><%= users.name %><Br> <%= users.price %></p></div>
+                    
+                    <%   }) %>
+                   
+            </div>
+        </a>
+            <a href="/sanpham/id">Users</a>
+           
 
+            
         </body>
     </html>
+    
