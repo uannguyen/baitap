@@ -1,27 +1,28 @@
 
 <html>
+    <head>
+   
+        <title>Web Expresssss</title>
+        <link rel='stylesheet' href='../css/styles.css'/>
+     
+        <base href="/">
+    </head>
+    <body>
+          
+        <h3 class="h3">Show sản phẩm</h3>
+        <a href="">
+        <div class="noidung">
+            
+            <% product.forEach(function(users){ %>
+             <a href="/sanpham/<%= users._id %>">   <div class="content"><img src=" <%=users.image %>"></a>  
+                    <p><%= users.name %><Br> <%= users.price %></p></div>
+                
+                <%   }) %>
+               
+        </div>
+    </a>
 
-<head>
-    <title>
-        Express Web
-    </title>   
-    <link rel='stylesheet'  href='../css/styles.css'/>
-    <base href="/">
-</head>
-
-<body>
-  
-
-    <h1>Chi tiết sản phẩm</h1>
-    <% chitiet_sanpham.forEach(function(users){ %>
-    <h1><%= users.price %> <%= users.name %></h1>
-    <%   }) %>
-<style>
-  
-</style>
-
-  
-
-</body>
-
+        
+    </body>
 </html>
+
